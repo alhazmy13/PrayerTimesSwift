@@ -16,3 +16,5 @@ xcode_sdk: iphonesimulator8.3
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
+script:
+- xcodebuild clean build test -project PrayerTimesSwift.xcodeproj
