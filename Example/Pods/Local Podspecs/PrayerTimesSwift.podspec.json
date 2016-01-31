@@ -1,6 +1,6 @@
 {
   "name": "PrayerTimesSwift",
-  "version": "0.1.3",
+  "version": "0.1.0",
   "summary": "Prayer Times provides a set of handy functions to calculate prayer times for any location around the world",
   "description": "Prayer Times provides a set of handy functions to calculate prayer times for any location around the world, based on a variety of calculation methods currently used in Muslim communities",
   "homepage": "https://github.com/Alhazmy13/PrayerTimesSwift",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/Alhazmy13/PrayerTimesSwift.git",
-    "tag": "0.1.3"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
