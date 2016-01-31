@@ -77,7 +77,11 @@ pod "PrayerTimesSwift"
 
 ## Author
 
-Abdullah Alhazmy, me@alhazmy13.net
+Abdullah Alhazmy
+
+## Credits
+[Praytimes](http://praytimes.org)
+
 
 ## License
 
