@@ -1,6 +1,6 @@
 # PrayerTimesSwift
 
-[![CI Status](http://img.shields.io/travis/Abdullah Alhazmy/PrayerTimesSwift.svg?style=flat)](https://travis-ci.org/Abdullah Alhazmy/PrayerTimesSwift)
+[![CI Status](http://img.shields.io/travis/Alhazmy13/PrayerTimesSwift.svg?style=flat)](https://travis-ci.org/Alhazmy13/PrayerTimesSwift)
 [![Version](https://img.shields.io/cocoapods/v/PrayerTimesSwift.svg?style=flat)](http://cocoapods.org/pods/PrayerTimesSwift)
 [![License](https://img.shields.io/cocoapods/l/PrayerTimesSwift.svg?style=flat)](http://cocoapods.org/pods/PrayerTimesSwift)
 [![Platform](https://img.shields.io/cocoapods/p/PrayerTimesSwift.svg?style=flat)](http://cocoapods.org/pods/PrayerTimesSwift)
