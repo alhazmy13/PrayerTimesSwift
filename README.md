@@ -1,6 +1,7 @@
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/12704381/cc10b62a-c86a-11e5-9624-6cdb12ea1e74.png">
+</p>
 # PrayerTimesSwift
-
-[![CI Status](http://img.shields.io/travis/alhazmy13/PrayerTimesSwift.svg?style=flat)](https://travis-ci.org/alhazmy13/PrayerTimesSwift)
 [![Version](https://img.shields.io/cocoapods/v/PrayerTimesSwift.svg?style=flat)](http://cocoapods.org/pods/PrayerTimesSwift)
 [![License](https://img.shields.io/cocoapods/l/PrayerTimesSwift.svg?style=flat)](http://cocoapods.org/pods/PrayerTimesSwift)
 [![Platform](https://img.shields.io/cocoapods/p/PrayerTimesSwift.svg?style=flat)](http://cocoapods.org/pods/PrayerTimesSwift)
