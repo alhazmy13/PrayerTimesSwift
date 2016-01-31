@@ -1,0 +1,14 @@
+PODS:
+  - PrayerTimesSwift (0.1.0)
+
+DEPENDENCIES:
+  - PrayerTimesSwift (from `../`)
+
+EXTERNAL SOURCES:
+  PrayerTimesSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PrayerTimesSwift: 0c24982edf61cb831f237aff6eb05e39fe22bb5c
+
+COCOAPODS: 0.39.0

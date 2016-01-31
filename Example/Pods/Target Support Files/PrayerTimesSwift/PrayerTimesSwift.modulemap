@@ -1,0 +1,6 @@
+framework module PrayerTimesSwift {
+  umbrella header "PrayerTimesSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

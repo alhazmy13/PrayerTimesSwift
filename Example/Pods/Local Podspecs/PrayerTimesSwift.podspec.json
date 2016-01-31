@@ -1,0 +1,25 @@
+{
+  "name": "PrayerTimesSwift",
+  "version": "0.1.0",
+  "summary": "A short description of PrayerTimesSwift.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PrayerTimesSwift",
+  "license": "MIT",
+  "authors": {
+    "Abdullah Alhazmy": "me@alhazmy13.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PrayerTimesSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PrayerTimesSwift": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

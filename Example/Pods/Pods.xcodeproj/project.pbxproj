@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D562689709419E8925BE5A97F587FF /* PrayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F807BB2647F7C62B37D34EE3B9641 /* PrayerTimes.swift */; };
+		253BCF0DC3010570042198779BA114A5 /* PrayerTimesSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 558A97D8664BC4B266222B1F40D3AC1E /* PrayerTimesSwift.bundle */; };
+		3F2ECFFF366E573CB7586A453F6B6E97 /* Pods-PrayerTimesSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7ABC7A04199668D830C9CCE7E491B /* Pods-PrayerTimesSwift_Example-dummy.m */; };
+		41EF6E00DE736EC529710770CCB607E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		510483DA7FCA7383F41F86736FF912B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		77DAC1ECB21F9A7EF0B4EE42A66E4B0F /* PrayerTimesSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 941B348C059263B5D5CE91D5C630ACB8 /* PrayerTimesSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91EAEC099A746CAC216FA522578C8C24 /* Pods-PrayerTimesSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9EFC82257C2B18CE3EB5C880587F1 /* Pods-PrayerTimesSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F5395D5412541CD8B7067638139114 /* Pods-PrayerTimesSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 987A7A360086735139DC025C0A9E36D2 /* Pods-PrayerTimesSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37A5BD7FBA03CC2B71BBF9935E5E19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D465CD603D2B30B8032D61868CED8AD9 /* Pods-PrayerTimesSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C163CB1294F321822D1D19792C7E8663 /* Pods-PrayerTimesSwift_Tests-dummy.m */; };
+		FA1C92049F6774E77EDA6CC74EE9199A /* PrayerTimesSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90CBB44BD5F6A54A2A27C2C8AC4B4F9 /* PrayerTimesSwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DF96A8B638682FA782437928F516B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C83959554BB2A7552E86212C36FBFE;
+			remoteInfo = PrayerTimesSwift;
+		};
+		1D7ACD604A5AE7B930AF93BD4C53B56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366800015BC3696E8F141E9BB9F5069D;
+			remoteInfo = "PrayerTimesSwift-PrayerTimesSwift";
+		};
+		88150DC8D2A46C6283E4199CC4BCF263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C83959554BB2A7552E86212C36FBFE;
+			remoteInfo = PrayerTimesSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0C82DA2B7E4D26C103A5AB099066EF /* PrayerTimesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PrayerTimesSwift.modulemap; sourceTree = "<group>"; };
+		2A0CABB2B9870EEDB95741C24F4DBEEC /* Pods-PrayerTimesSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrayerTimesSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		341EE4712655C1CA76AFF5963C4C7829 /* Pods-PrayerTimesSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrayerTimesSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3443A0E3CB639E91FAB6C892FAC660DE /* Pods-PrayerTimesSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrayerTimesSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		38D619387581E319CD06DF7B8417C121 /* Pods_PrayerTimesSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrayerTimesSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		393198FEB47E9DA0A493E65B266CD4FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4311C34C9A65C51C5BF27082BAA811A8 /* Pods-PrayerTimesSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrayerTimesSwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		47C01D707088572247378C8E7788E842 /* Pods-PrayerTimesSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrayerTimesSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4F716A5DE676D37C520D1F73E2583078 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558A97D8664BC4B266222B1F40D3AC1E /* PrayerTimesSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayerTimesSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DC68001822DC40D6A5F46540EB1585 /* Pods-PrayerTimesSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrayerTimesSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D9F807BB2647F7C62B37D34EE3B9641 /* PrayerTimes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrayerTimes.swift; sourceTree = "<group>"; };
+		77A7ABC7A04199668D830C9CCE7E491B /* Pods-PrayerTimesSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrayerTimesSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		78340FF632CE8A35B429609AA0D6DE2A /* Pods-PrayerTimesSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrayerTimesSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		78622C873FF8B237325F2E68EA59466A /* Pods-PrayerTimesSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrayerTimesSwift_Example-resources.sh"; sourceTree = "<group>"; };
+		83D4698D989800BF924EB4B906826BD9 /* PrayerTimesSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrayerTimesSwift.xcconfig; sourceTree = "<group>"; };
+		941B348C059263B5D5CE91D5C630ACB8 /* PrayerTimesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrayerTimesSwift-umbrella.h"; sourceTree = "<group>"; };
+		987A7A360086735139DC025C0A9E36D2 /* Pods-PrayerTimesSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrayerTimesSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A07C545518FEE4EAE26874F2261A048A /* Pods-PrayerTimesSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrayerTimesSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7717C64FCD41EEEDE4E92746C4F6A9E /* Pods-PrayerTimesSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrayerTimesSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACAC07E0F83C68AD8CEE2F746F796547 /* Pods-PrayerTimesSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrayerTimesSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACC9EFC82257C2B18CE3EB5C880587F1 /* Pods-PrayerTimesSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrayerTimesSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE60E4B4E12676535D2E27C1C4B0E4E6 /* PrayerTimesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrayerTimesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FF731FF032575F667B8AE5529E26DB /* Pods-PrayerTimesSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PrayerTimesSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		B846974EA14C68E07A56B534D828B6BC /* Pods-PrayerTimesSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PrayerTimesSwift_Example.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C163CB1294F321822D1D19792C7E8663 /* Pods-PrayerTimesSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrayerTimesSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		C547579ECCCA0D3EDC3CFECC869FAE28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90CBB44BD5F6A54A2A27C2C8AC4B4F9 /* PrayerTimesSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrayerTimesSwift-dummy.m"; sourceTree = "<group>"; };
+		DF16BE3F2B97333A6E106327767A1163 /* PrayerTimesSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrayerTimesSwift-prefix.pch"; sourceTree = "<group>"; };
+		FB5A2D0F5FE8C6F676F493B4259BEB6C /* Pods_PrayerTimesSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrayerTimesSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAFEB930CF005466DD4001939F640E2 /* Pods-PrayerTimesSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrayerTimesSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B52D2390767D7E99A2CEA25B7E12154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4AF49F323AF387A2837E2CB99F0639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37A5BD7FBA03CC2B71BBF9935E5E19C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C55FDC1F166D848AD35C3333D60BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510483DA7FCA7383F41F86736FF912B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0CDD6750175FB0F11D519F68C79697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF6E00DE736EC529710770CCB607E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06589DFB82116AC2100371DAB9668F3C /* PrayerTimesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5036E928739E4157E80122A96EF75293 /* Pod */,
+				A9D60478C7867C4A5A94CB833EE8ED92 /* Support Files */,
+			);
+			name = PrayerTimesSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5036E928739E4157E80122A96EF75293 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA031BB10146000E8725B8751C6E4B /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		5DFA031BB10146000E8725B8751C6E4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D9F807BB2647F7C62B37D34EE3B9641 /* PrayerTimes.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F7914CA88DD9D36EF9CBDE8B98C8C74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA554365F0FC4B40320DBD8E12BE9BB1 /* Pods-PrayerTimesSwift_Example */,
+				F3A8853D2F9A6834212CE2DD89F15F81 /* Pods-PrayerTimesSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B7A35FC29BA78EE1BBC8A49CB7C9D57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A2D0F5FE8C6F676F493B4259BEB6C /* Pods_PrayerTimesSwift_Example.framework */,
+				38D619387581E319CD06DF7B8417C121 /* Pods_PrayerTimesSwift_Tests.framework */,
+				558A97D8664BC4B266222B1F40D3AC1E /* PrayerTimesSwift.bundle */,
+				AE60E4B4E12676535D2E27C1C4B0E4E6 /* PrayerTimesSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9764E69EC09C8F080F2F3822E7A71FA5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7B7A35FC29BA78EE1BBC8A49CB7C9D57 /* Products */,
+				6F7914CA88DD9D36EF9CBDE8B98C8C74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9764E69EC09C8F080F2F3822E7A71FA5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06589DFB82116AC2100371DAB9668F3C /* PrayerTimesSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A9D60478C7867C4A5A94CB833EE8ED92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				393198FEB47E9DA0A493E65B266CD4FE /* Info.plist */,
+				0C0C82DA2B7E4D26C103A5AB099066EF /* PrayerTimesSwift.modulemap */,
+				83D4698D989800BF924EB4B906826BD9 /* PrayerTimesSwift.xcconfig */,
+				C90CBB44BD5F6A54A2A27C2C8AC4B4F9 /* PrayerTimesSwift-dummy.m */,
+				DF16BE3F2B97333A6E106327767A1163 /* PrayerTimesSwift-prefix.pch */,
+				941B348C059263B5D5CE91D5C630ACB8 /* PrayerTimesSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PrayerTimesSwift";
+			sourceTree = "<group>";
+		};
+		AA554365F0FC4B40320DBD8E12BE9BB1 /* Pods-PrayerTimesSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F716A5DE676D37C520D1F73E2583078 /* Info.plist */,
+				B846974EA14C68E07A56B534D828B6BC /* Pods-PrayerTimesSwift_Example.modulemap */,
+				ACAC07E0F83C68AD8CEE2F746F796547 /* Pods-PrayerTimesSwift_Example-acknowledgements.markdown */,
+				3443A0E3CB639E91FAB6C892FAC660DE /* Pods-PrayerTimesSwift_Example-acknowledgements.plist */,
+				77A7ABC7A04199668D830C9CCE7E491B /* Pods-PrayerTimesSwift_Example-dummy.m */,
+				47C01D707088572247378C8E7788E842 /* Pods-PrayerTimesSwift_Example-frameworks.sh */,
+				78622C873FF8B237325F2E68EA59466A /* Pods-PrayerTimesSwift_Example-resources.sh */,
+				ACC9EFC82257C2B18CE3EB5C880587F1 /* Pods-PrayerTimesSwift_Example-umbrella.h */,
+				2A0CABB2B9870EEDB95741C24F4DBEEC /* Pods-PrayerTimesSwift_Example.debug.xcconfig */,
+				FBAFEB930CF005466DD4001939F640E2 /* Pods-PrayerTimesSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-PrayerTimesSwift_Example";
+			path = "Target Support Files/Pods-PrayerTimesSwift_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3A8853D2F9A6834212CE2DD89F15F81 /* Pods-PrayerTimesSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C547579ECCCA0D3EDC3CFECC869FAE28 /* Info.plist */,
+				B6FF731FF032575F667B8AE5529E26DB /* Pods-PrayerTimesSwift_Tests.modulemap */,
+				A07C545518FEE4EAE26874F2261A048A /* Pods-PrayerTimesSwift_Tests-acknowledgements.markdown */,
+				341EE4712655C1CA76AFF5963C4C7829 /* Pods-PrayerTimesSwift_Tests-acknowledgements.plist */,
+				C163CB1294F321822D1D19792C7E8663 /* Pods-PrayerTimesSwift_Tests-dummy.m */,
+				78340FF632CE8A35B429609AA0D6DE2A /* Pods-PrayerTimesSwift_Tests-frameworks.sh */,
+				4311C34C9A65C51C5BF27082BAA811A8 /* Pods-PrayerTimesSwift_Tests-resources.sh */,
+				987A7A360086735139DC025C0A9E36D2 /* Pods-PrayerTimesSwift_Tests-umbrella.h */,
+				A7717C64FCD41EEEDE4E92746C4F6A9E /* Pods-PrayerTimesSwift_Tests.debug.xcconfig */,
+				66DC68001822DC40D6A5F46540EB1585 /* Pods-PrayerTimesSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-PrayerTimesSwift_Tests";
+			path = "Target Support Files/Pods-PrayerTimesSwift_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D859E1D662203B884E9A458419C709 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DAC1ECB21F9A7EF0B4EE42A66E4B0F /* PrayerTimesSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A2F1E161C223190EC9001C42816DC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EAEC099A746CAC216FA522578C8C24 /* Pods-PrayerTimesSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783F28908BC5F8AC19AFF613AE70A1C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F5395D5412541CD8B7067638139114 /* Pods-PrayerTimesSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		169BD8903363D9E46FB449247068AE12 /* Pods-PrayerTimesSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E7B116C0D318C6988C8A291E9E5E86 /* Build configuration list for PBXNativeTarget "Pods-PrayerTimesSwift_Tests" */;
+			buildPhases = (
+				A5C2594FC2B5000C1E2F2A4C23CB9D1D /* Sources */,
+				2E4AF49F323AF387A2837E2CB99F0639 /* Frameworks */,
+				783F28908BC5F8AC19AFF613AE70A1C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B57990ADD58FBDF3CB01CFA5892042 /* PBXTargetDependency */,
+			);
+			name = "Pods-PrayerTimesSwift_Tests";
+			productName = "Pods-PrayerTimesSwift_Tests";
+			productReference = 38D619387581E319CD06DF7B8417C121 /* Pods_PrayerTimesSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		366800015BC3696E8F141E9BB9F5069D /* PrayerTimesSwift-PrayerTimesSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61FDA9A1E05E40B60134F2C79B5055F /* Build configuration list for PBXNativeTarget "PrayerTimesSwift-PrayerTimesSwift" */;
+			buildPhases = (
+				867016D4B2779566EA1DAD14BD33DD3E /* Sources */,
+				1B52D2390767D7E99A2CEA25B7E12154 /* Frameworks */,
+				4DDE6FE1AE4108092935D29C4F057BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PrayerTimesSwift-PrayerTimesSwift";
+			productName = "PrayerTimesSwift-PrayerTimesSwift";
+			productReference = 558A97D8664BC4B266222B1F40D3AC1E /* PrayerTimesSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7428BCAD18EA157839E7AC89C7A1A5C3 /* Pods-PrayerTimesSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363197A3672447BDFD549BD63769F9D9 /* Build configuration list for PBXNativeTarget "Pods-PrayerTimesSwift_Example" */;
+			buildPhases = (
+				9A2BA6EBB4ACA6E8A8424A59F9957C12 /* Sources */,
+				CF0CDD6750175FB0F11D519F68C79697 /* Frameworks */,
+				35A2F1E161C223190EC9001C42816DC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D3E7AF64D256E9BBB521ED9E28C503 /* PBXTargetDependency */,
+			);
+			name = "Pods-PrayerTimesSwift_Example";
+			productName = "Pods-PrayerTimesSwift_Example";
+			productReference = FB5A2D0F5FE8C6F676F493B4259BEB6C /* Pods_PrayerTimesSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7C83959554BB2A7552E86212C36FBFE /* PrayerTimesSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5496FF8E7B1F779B8171B3DA35512070 /* Build configuration list for PBXNativeTarget "PrayerTimesSwift" */;
+			buildPhases = (
+				49284504FBB71E1CDABD321595D4F695 /* Sources */,
+				38C55FDC1F166D848AD35C3333D60BAE /* Frameworks */,
+				1A8CB73134FC3AD8BE9CC4263B4EB2B9 /* Resources */,
+				23D859E1D662203B884E9A458419C709 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78511C9DE01601B5718F9B82D8650F38 /* PBXTargetDependency */,
+			);
+			name = PrayerTimesSwift;
+			productName = PrayerTimesSwift;
+			productReference = AE60E4B4E12676535D2E27C1C4B0E4E6 /* PrayerTimesSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7B7A35FC29BA78EE1BBC8A49CB7C9D57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7428BCAD18EA157839E7AC89C7A1A5C3 /* Pods-PrayerTimesSwift_Example */,
+				169BD8903363D9E46FB449247068AE12 /* Pods-PrayerTimesSwift_Tests */,
+				D7C83959554BB2A7552E86212C36FBFE /* PrayerTimesSwift */,
+				366800015BC3696E8F141E9BB9F5069D /* PrayerTimesSwift-PrayerTimesSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8CB73134FC3AD8BE9CC4263B4EB2B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253BCF0DC3010570042198779BA114A5 /* PrayerTimesSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDE6FE1AE4108092935D29C4F057BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49284504FBB71E1CDABD321595D4F695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C92049F6774E77EDA6CC74EE9199A /* PrayerTimesSwift-dummy.m in Sources */,
+				22D562689709419E8925BE5A97F587FF /* PrayerTimes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867016D4B2779566EA1DAD14BD33DD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2BA6EBB4ACA6E8A8424A59F9957C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2ECFFF366E573CB7586A453F6B6E97 /* Pods-PrayerTimesSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2594FC2B5000C1E2F2A4C23CB9D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D465CD603D2B30B8032D61868CED8AD9 /* Pods-PrayerTimesSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78511C9DE01601B5718F9B82D8650F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PrayerTimesSwift-PrayerTimesSwift";
+			target = 366800015BC3696E8F141E9BB9F5069D /* PrayerTimesSwift-PrayerTimesSwift */;
+			targetProxy = 1D7ACD604A5AE7B930AF93BD4C53B56C /* PBXContainerItemProxy */;
+		};
+		A7D3E7AF64D256E9BBB521ED9E28C503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PrayerTimesSwift;
+			target = D7C83959554BB2A7552E86212C36FBFE /* PrayerTimesSwift */;
+			targetProxy = 88150DC8D2A46C6283E4199CC4BCF263 /* PBXContainerItemProxy */;
+		};
+		F4B57990ADD58FBDF3CB01CFA5892042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PrayerTimesSwift;
+			target = D7C83959554BB2A7552E86212C36FBFE /* PrayerTimesSwift */;
+			targetProxy = 15DF96A8B638682FA782437928F516B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49379651CA304D467348F336B71053D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7717C64FCD41EEEDE4E92746C4F6A9E /* Pods-PrayerTimesSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PrayerTimesSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrayerTimesSwift_Tests/Pods-PrayerTimesSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PrayerTimesSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E8BE496CE0FED9B86F0099D5E439275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4698D989800BF924EB4B906826BD9 /* PrayerTimesSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PrayerTimesSwift/PrayerTimesSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrayerTimesSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrayerTimesSwift/PrayerTimesSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PrayerTimesSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65F7876F020B0E13F7621023C679B25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0CABB2B9870EEDB95741C24F4DBEEC /* Pods-PrayerTimesSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PrayerTimesSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrayerTimesSwift_Example/Pods-PrayerTimesSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PrayerTimesSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69094BCE045E636D0DB28B4C388CD510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DC68001822DC40D6A5F46540EB1585 /* Pods-PrayerTimesSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PrayerTimesSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrayerTimesSwift_Tests/Pods-PrayerTimesSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PrayerTimesSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ABF3D870DE21FBDDB5121397967D2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4698D989800BF924EB4B906826BD9 /* PrayerTimesSwift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PrayerTimesSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A49AD75E94FBD9710A3850402CFF18CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4698D989800BF924EB4B906826BD9 /* PrayerTimesSwift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PrayerTimesSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CFD562B952E810B85F9A9FF20CCC1E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAFEB930CF005466DD4001939F640E2 /* Pods-PrayerTimesSwift_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PrayerTimesSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrayerTimesSwift_Example/Pods-PrayerTimesSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PrayerTimesSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D91250D87107B1AAB46A9F138F600B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4698D989800BF924EB4B906826BD9 /* PrayerTimesSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PrayerTimesSwift/PrayerTimesSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrayerTimesSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrayerTimesSwift/PrayerTimesSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PrayerTimesSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363197A3672447BDFD549BD63769F9D9 /* Build configuration list for PBXNativeTarget "Pods-PrayerTimesSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F7876F020B0E13F7621023C679B25B /* Debug */,
+				CFD562B952E810B85F9A9FF20CCC1E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5496FF8E7B1F779B8171B3DA35512070 /* Build configuration list for PBXNativeTarget "PrayerTimesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8BE496CE0FED9B86F0099D5E439275 /* Debug */,
+				D91250D87107B1AAB46A9F138F600B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E7B116C0D318C6988C8A291E9E5E86 /* Build configuration list for PBXNativeTarget "Pods-PrayerTimesSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49379651CA304D467348F336B71053D7 /* Debug */,
+				69094BCE045E636D0DB28B4C388CD510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61FDA9A1E05E40B60134F2C79B5055F /* Build configuration list for PBXNativeTarget "PrayerTimesSwift-PrayerTimesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49AD75E94FBD9710A3850402CFF18CD /* Debug */,
+				7ABF3D870DE21FBDDB5121397967D2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
