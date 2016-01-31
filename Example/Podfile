@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PrayerTimesSwift_Example', :exclusive => true do
+  pod 'PrayerTimesSwift', :path => '../'
+end
+
+target 'PrayerTimesSwift_Tests', :exclusive => true do
+  pod 'PrayerTimesSwift', :path => '../'
+
+  
+end
