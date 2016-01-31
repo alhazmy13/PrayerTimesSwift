@@ -357,7 +357,7 @@ public class PrayerTimes{
         time = fixhour(time + 0.5 / 60) // add 0.5 minutes to round
         var hours: Int = Int(floor(time))
         let minutes = Int(floor((Double(time) - Double(hours)) * 60))
-        let suffix: String, result: String
+        var suffix: String, result: String
         if (hours >= 12) {
             suffix = "pm"
         } else {
