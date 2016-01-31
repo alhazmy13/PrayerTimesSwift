@@ -1,16 +1,16 @@
 {
   "name": "PrayerTimesSwift",
-  "version": "0.1.0",
-  "summary": "A short description of PrayerTimesSwift.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PrayerTimesSwift",
+  "version": "0.1.2",
+  "summary": "Prayer Times provides a set of handy functions to calculate prayer times for any location around the world",
+  "description": "Prayer Times provides a set of handy functions to calculate prayer times for any location around the world, based on a variety of calculation methods currently used in Muslim communities",
+  "homepage": "https://github.com/Alhazmy13/PrayerTimesSwift",
   "license": "MIT",
   "authors": {
     "Abdullah Alhazmy": "me@alhazmy13.net"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PrayerTimesSwift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Alhazmy13/PrayerTimesSwift.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
