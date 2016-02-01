@@ -30,7 +30,7 @@ let prayerTimes = myPrayerTime.getPrayerTimes(NSCalendar.currentCalendar(), lati
 	* `Time12NS`  12-hour format with no suffix
 	* `Floating`  floating point number
 ```swift
-myPrayerTime.timeFormat = PrayerTimes.TimeForamts.Time24
+myPrayerTime.timeFormat = .time24
 ```
 * `Caculationmethod` To change the Calculation Methods.
 	* `Karachi`  University of Islamic Sciences, Karachi
@@ -42,13 +42,13 @@ myPrayerTime.timeFormat = PrayerTimes.TimeForamts.Time24
 	* `Tehran`  Institute of Geophysics, University of Tehran
 	* `Custom`  Custom Setting
 ```swift
- myPrayerTime.Caculationmethod = PrayerTimes.CalculationMethods.Makkah
+ myPrayerTime.Caculationmethod = .makkah
 ```
 * `AsrJuristic` To change Juristic Method for Asr
 	* `Shafii`  Shafii (standard)
 	* `Hanafi`  Hanafi
 ```swift
-myPrayerTime.asrJuristic = PrayerTimes.AsrJuristicMethods.Shafii
+myPrayerTime.asrJuristic = .shafii
 ```
 * `AdjustHighLats` Adjusting Methods for Higher Latitudes
 	* `None`  No adjustment
@@ -56,7 +56,7 @@ myPrayerTime.asrJuristic = PrayerTimes.AsrJuristicMethods.Shafii
 	* `OneSeventh`  1/7th of night
 	* `AngleBased`  angle/60th of night
 ```swift
-myPrayerTime.adjustHighLats = PrayerTimes.AdjustingMethods.None
+myPrayerTime.adjustHighLats = .none
 ```
 * `tuneTimes` Tune timings for adjustments
 ```swift

@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let myPrayerTime = PrayerTimes(caculationmethod: .makkah, asrJuristic: .shafii, adjustHighLats: .none, timeFormat: .time12)
         let prayerTimes = myPrayerTime.getPrayerTimes(NSCalendar.currentCalendar(), latitude: 24.7993689, longitude: 46.6176563, tZone: 3)
+        myPrayerTime.caculationMethod = .makkah
         for time in prayerTimes{
             print(time)
         }
