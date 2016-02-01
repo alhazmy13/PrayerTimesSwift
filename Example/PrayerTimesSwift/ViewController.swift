@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let myPrayerTime = PrayerTimes(Caculationmethod: PrayerTimes.CalculationMethods.Makkah, asrJuristic: PrayerTimes.AsrJuristicMethods.Hanafi, adjustHighLats: PrayerTimes.AdjustingMethods.None, timeFormat: PrayerTimes.TimeForamts.Time24)
+        let myPrayerTime = PrayerTimes(caculationmethod: .makkah, asrJuristic: .shafii, adjustHighLats: .none, timeFormat: .time12)
         let prayerTimes = myPrayerTime.getPrayerTimes(NSCalendar.currentCalendar(), latitude: 24.7993689, longitude: 46.6176563, tZone: 3)
         for time in prayerTimes{
             print(time)

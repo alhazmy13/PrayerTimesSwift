@@ -18,7 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 You will need to create a new instance of `PrayerTime`. Once the instance are configured, you can call `getPrayerTimes()`.
 
 ```swift
-let myPrayerTime = PrayerTimes(Caculationmethod: PrayerTimes.CalculationMethods.Makkah, asrJuristic: PrayerTimes.AsrJuristicMethods.Hanafi, adjustHighLats: PrayerTimes.AdjustingMethods.None, timeFormat: PrayerTimes.TimeForamts.Time24)
+let myPrayerTime = PrayerTimes(caculationmethod: .makkah, asrJuristic: .shafii, adjustHighLats: .none, timeFormat: .time12)
 let prayerTimes = myPrayerTime.getPrayerTimes(NSCalendar.currentCalendar(), latitude: 24.7993689, longitude: 46.6176563, tZone: 3)
 ```
 
