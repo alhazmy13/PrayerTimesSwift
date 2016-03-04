@@ -19,7 +19,7 @@ public class PrayerTimes{
     public var adjustHighLats : AdjustingMethods = .None // adjusting method for higher latitudes
     public var timeFormat : TimeForamts = .Time24 // time format
     var prayerTimesCurrent: [Double] = []
-    var offsets: [Double] = [0,0,0,0,0,0,0]
+    var offsets = [Double](count: 7, repeatedValue: 0.0)
     var lat: Double = Double() // latitude
     var lng: Double = Double() // longitude
     var timeZone: Double = Double() // time-zone
@@ -41,7 +41,7 @@ public class PrayerTimes{
     // ------------------------------------------------------------
     // Calculation Methods
     public enum CalculationMethods: Int {
-        case Jafari  // Ithna Ashari
+        case Jafari = 0  // Ithna Ashari
         case Karachi // University of Islamic Sciences, Karachi
         case Isna  // Islamic Society of North America (ISNA)
         case Mwl // Muslim World League (MWL)
@@ -114,7 +114,7 @@ public class PrayerTimes{
     
     // ---------------------- Julian Date Functions -----------------------
     // calculate julian date from a calendar date
-    func julianDate(year: Int, month: Int, day: Int) -> Double{
+    func julianDate(year: Int, month: Int, day: Int) -> Double {
         
         var adujestedYear = year
         var adujestedMonth = month
