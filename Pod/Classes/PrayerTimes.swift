@@ -27,13 +27,13 @@ public class PrayerTimes{
     
     
     internal enum PrayerName : String {
-        case Fajr
-        case Sunrise
-        case Dhuhr
-        case Asr
-        case Sunset
-        case Maghrib
-        case Isha
+        case Fajr = "Fajr"
+        case Sunrise = "Sunrise"
+        case Dhuhr = "Dhuhr"
+        case Asr = "Asr"
+        case Sunset = "Sunset"
+        case Maghrib = "Maghrib"
+        case Isha = "Isha"
         case InvalidTime =  " ---- "
     }
     
