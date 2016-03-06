@@ -14,9 +14,6 @@ You can report any issue on issues page. **Note: If you speak Arabic, you can su
 
 ## Installation
 
-```rb
-pod 'PrayerTimesSwift'
-```
 
 Just add `pod 'PrayerTimesSwift'` to your Podfile and go!
 PrayerTimesSwift is available through [CocoaPods](http://cocoapods.org). To install
