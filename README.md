@@ -10,9 +10,24 @@ Prayer Times provides a set of handy functions to calculate prayer times for any
 
 You can report any issue on issues page. **Note: If you speak Arabic, you can submit issues with Arabic language and I will check them. :)**
 
-## Usage
+## Requirements
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Installation
+
+```rb
+pod 'PrayerTimesSwift'
+```
+
+Just add `pod 'PrayerTimesSwift'` to your Podfile and go!
+PrayerTimesSwift is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "PrayerTimesSwift"
+```
+
+Then run `pod install`
+
 
 ### Create an `PrayerTime`
 You will need to create a new instance of `PrayerTime`. Once the instance are configured, you can call `getPrayerTimes()`.
@@ -64,16 +79,6 @@ myPrayerTime.adjustHighLats = .none
 ```
 
 
-## Requirements
-
-## Installation
-
-PrayerTimesSwift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "PrayerTimesSwift"
-```
 
 ## Author
 
