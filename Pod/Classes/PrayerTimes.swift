@@ -235,7 +235,7 @@ public class PrayerTimes{
     }
     
     // set custom values for calculation parameters
-    public func setCustomParams(var params: [Double]) {
+    public func setCustomParams( params: [Double]) {
         
         var newCustomeParms: [Double] = []
         for i in 1...5 {
@@ -435,7 +435,8 @@ public class PrayerTimes{
     }
     
     // adjust Fajr, Isha and Maghrib for locations in higher latitudes
-    func adjustHighLatTimes(var times: [Double]) -> [Double]{
+    func adjustHighLatTimes(timesParamter: [Double]) -> [Double]{
+        var times = timesParamter;
         let nightTime = timeDiff(times[4], time2: times[1]) // sunset to sunrise
         
         // Adjust Fajr

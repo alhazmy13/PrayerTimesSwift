@@ -10,3 +10,4 @@ target 'PrayerTimesSwift_Tests', :exclusive => true do
 
   
 end
+/Users/Alhazmy13/Projects/PrayerTimesSwift/PrayerTimesSwift.podspec
