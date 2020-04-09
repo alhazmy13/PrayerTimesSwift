@@ -139,7 +139,7 @@ public class PrayerTimes {
         timeFormat: TimeForamts
     ){
         
-        self.caculationMethod = caculationmethod
+        self.caculationMethod = caculationMethod
         self.asrJuristic = asrJuristic
         self.adjustHighLats = adjustHighLats
         self.timeFormat = timeFormat
@@ -155,7 +155,7 @@ public class PrayerTimes {
         offsets: [Double]
     ){
         
-        self.caculationMethod = caculationmethod
+        self.caculationMethod = caculationMethod
         self.asrJuristic = asrJuristic
         self.adjustHighLats = adjustHighLats
         self.timeFormat = timeFormat

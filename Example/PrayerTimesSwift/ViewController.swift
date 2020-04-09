@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let myPrayerTime = PrayerTimes(
-            caculationmethod: .makkah,
+            caculationMethod: .makkah,
             asrJuristic: .shafii,
             adjustHighLats: .none,
             timeFormat: .time12
