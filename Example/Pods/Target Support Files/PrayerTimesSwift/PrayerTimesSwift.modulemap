@@ -1,4 +1,4 @@
-framework module PrayerTimesSwift {
+module PrayerTimesSwift {
   umbrella header "PrayerTimesSwift-umbrella.h"
 
   export *
