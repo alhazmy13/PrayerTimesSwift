@@ -469,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F8E1993C777FC2378312A29 /* Pods-PrayerTimesSwift_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G69L3HCQBT;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -487,7 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B5CA3002902925EB41C9206 /* Pods-PrayerTimesSwift_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G69L3HCQBT;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
