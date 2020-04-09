@@ -133,7 +133,7 @@ public class PrayerTimes {
     // MARK:- init
     
     public init(
-        caculationmethod: CalculationMethods,
+        caculationMethod: CalculationMethods,
         asrJuristic: AsrJuristicMethods,
         adjustHighLats: AdjustingMethods,
         timeFormat: TimeForamts
@@ -148,7 +148,7 @@ public class PrayerTimes {
     
     /// init with offsets
     public init(
-        caculationmethod: CalculationMethods,
+        caculationMethod: CalculationMethods,
         asrJuristic: AsrJuristicMethods,
         adjustHighLats: AdjustingMethods ,
         timeFormat: TimeForamts,
