@@ -1,13 +1,17 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-target 'PrayerTimesSwift_Example', :exclusive => true do
-  pod 'PrayerTimesSwift', :path => '../'
+def shared_pods
+  pod 'PrayerTimesSwift'
 end
 
-target 'PrayerTimesSwift_Tests', :exclusive => true do
-  pod 'PrayerTimesSwift', :path => '../'
-
+target 'PrayerTimesSwift_Example' do
+  
+  # Pods for PrayerTimesSwift_Example
+  shared_pods
+  
+  target 'PrayerTimesSwift_Tests' do
+    inherit! :search_paths
+  end
   
 end
-/Users/Alhazmy13/Projects/PrayerTimesSwift/PrayerTimesSwift.podspec

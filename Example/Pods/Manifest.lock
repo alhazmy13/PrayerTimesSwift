@@ -1,14 +1,16 @@
 PODS:
-  - PrayerTimesSwift (0.1.0)
+  - PrayerTimesSwift (1.0.0)
 
 DEPENDENCIES:
-  - PrayerTimesSwift (from `../`)
+  - PrayerTimesSwift
 
-EXTERNAL SOURCES:
-  PrayerTimesSwift:
-    :path: ../
+SPEC REPOS:
+  trunk:
+    - PrayerTimesSwift
 
 SPEC CHECKSUMS:
-  PrayerTimesSwift: 0c24982edf61cb831f237aff6eb05e39fe22bb5c
+  PrayerTimesSwift: 923d28180f73fd453690680caca9c4c7c7802867
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: d108cfdbc975bc0b5662c37d8359fadee4e923ae
+
+COCOAPODS: 1.8.4
