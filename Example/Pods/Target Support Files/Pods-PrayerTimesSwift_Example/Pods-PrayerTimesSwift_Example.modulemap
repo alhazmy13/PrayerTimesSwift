@@ -1,4 +1,4 @@
-framework module Pods_PrayerTimesSwift_Example {
+module Pods_PrayerTimesSwift_Example {
   umbrella header "Pods-PrayerTimesSwift_Example-umbrella.h"
 
   export *
